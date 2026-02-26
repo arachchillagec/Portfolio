@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: brown;
+}
+
+span {
+    font-weight: bold;
+}
+
+.image-div{
+    text-align: center;
+}
+
+img{
+    width:30%
+}
+
+.container {
+  display: flex; /* Makes the children flex items arranged in a row by default */
+  margin: 5%;
+}
+
+.group {
+  /* Optional: gives the divs equal width and allows them to grow */
+  flex: 1; 
+  /* Optional: adds space between the divs, which flexbox handles intelligently */
+  margin: 10px; 
+}
