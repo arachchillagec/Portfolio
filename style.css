@@ -33,3 +33,35 @@ img{
   /* Optional: adds space between the divs, which flexbox handles intelligently */
   margin: 10px; 
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ebbf6d;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #676060;
+}
+ul {
+  position: sticky;
+  top: 0;
+}
+ul div.active {
+  background-color: #525ff1;
+}
